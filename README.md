@@ -15,6 +15,7 @@
 
 
 ## 概要   
+　本内容はあくまでも概要であり、詳細は未記載
 
  - 1.画像とＩＳＢＮの紐づけ（モデル作成～学習）
      - モデル作成～学習：AWS SageMaker内のJupyter notebook上にある画像分類のサンプル「Image-classification-lst-format」に手を加えを実施
@@ -62,7 +63,9 @@
        - 以下のテスト用フロントアプリから呼び出し
          - [index.html](./Test/index.html)
          - [main.js](./Test/main.js)
-            [![概要](test4.png)](./test3.png)
+       - 判定結果：99.87%<br>
+       [![](test4.png)](./test3.png) 
+       
 
 ## 苦労したポイント
  - 学習する際に使用したサンプルはGPUを必要とするが、SageMakerで利用できるGPUのデフォルトインスタンス数の制限が1であり、途中でエラーとなる
