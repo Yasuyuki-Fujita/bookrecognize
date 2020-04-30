@@ -13,6 +13,12 @@
 ##
 [![概要](image.png)](./image.png)
 
+## フォルダ構成
+|フォルダ名            |説明                    |
+|:--                  |:--                     |
+|notebook |Jupyter notebookのソース＋学習元データ |
+|image-classification | Lambdaで実行するサーバコード(Python) |
+|Test | 画像分析判定を実行するためのフロントアプリ(Vue.js) |
 
 ## 概要   
 　本内容はあくまでも概要であり、詳細は未記載
